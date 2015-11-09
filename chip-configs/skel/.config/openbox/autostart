@@ -1,1 +1,4 @@
-tint2 &
+(\
+nitrogen --restore && \
+tint2\
+) &
