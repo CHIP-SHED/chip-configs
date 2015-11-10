@@ -23,6 +23,11 @@
   <item label="Reconfigure">
     <action name="Reconfigure" />
   </item>
+  <menu id="settings" label="Settings">
+    <item label="Mouse">
+       <action name="Execute"><execute>lxinput</execute></action>
+    </item>
+  </menu>
   <item label="Restart">
     <action name="Restart" />
   </item>
