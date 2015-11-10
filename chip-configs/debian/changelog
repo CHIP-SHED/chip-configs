@@ -1,3 +1,11 @@
+chip-configs (0.3) unstable; urgency=low
+
+  * Audio and bluetooth applets
+  * xscreensaver autostart
+
+ -- Ben Young <benjamin@nextthing.co>  Mon, 10 Nov 2015 13:51:49 -0800
+
+
 chip-configs (0.2) unstable; urgency=low
 
   * Initial Release.
