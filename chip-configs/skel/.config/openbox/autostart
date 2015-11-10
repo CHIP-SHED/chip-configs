@@ -2,3 +2,8 @@
 nitrogen --restore && \
 tint2\
 ) &
+
+blueman-applet &
+( sleep2s && pasystray ) &
+
+xscreensaveer -no-splash &
