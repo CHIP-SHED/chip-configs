@@ -1,10 +1,26 @@
+chip-configs (0.5) unstable; urgency=low
+
+  * Launchers for Thunar and chip-exit
+  * Changed tint panel main color
+  * Launchers for Thunar and chip-exit
+
+ -- Ben Young <benjamin@nextthing.co>  Wed, 10 Nov 2015 14:40:00 -0800
+
+
+chip-configs (0.4) unstable; urgency=low
+
+  * Primarily for testing update function.
+
+ -- Ben Young <benjamin@nextthing.co>  Wed, 10 Nov 2015 13:56:22 -0800
+
+
 chip-configs (0.3) unstable; urgency=low
 
   * Audio and bluetooth applets
   * xscreensaver autostart
   * Openbox menu customization
 
- -- Ben Young <benjamin@nextthing.co>  Mon, 10 Nov 2015 13:51:49 -0800
+ -- Ben Young <benjamin@nextthing.co>  Tue, 10 Nov 2015 13:51:49 -0800
 
 
 chip-configs (0.2) unstable; urgency=low
