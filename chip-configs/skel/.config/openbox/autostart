@@ -6,3 +6,5 @@ tint2\
 ( sleep 2s && pasystray ) &
 
 xscreensaver -no-splash &
+
+pk-update-icon &
