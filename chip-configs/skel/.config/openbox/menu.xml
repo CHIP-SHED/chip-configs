@@ -6,8 +6,17 @@
                 file:///usr/share/openbox/menu.xsd">
 
 <menu id="root-menu" label="Openbox 3">
-  <item label="Terminal emulator">
+  <item label="Run Program">
+    <action name="Execute"><execute>gmrun</execute></action>
+  </item>
+  <item label="File Manager">
+    <action name="Execute"><execute>caja</execute></action>
+  </item>
+  <item label="Terminal">
     <action name="Execute"><execute>x-terminal-emulator</execute></action>
+  </item>
+  <item label="Text Editor">
+    <action name="Execute"><execute>leafpad</execute></action>
   </item>
   <item label="Web browser">
     <action name="Execute"><execute>x-www-browser</execute></action>
@@ -17,24 +26,24 @@
   <separator />
   <menu id="client-list-menu" />
   <separator />
-  <item label="ObConf">
-    <action name="Execute"><execute>obconf</execute></action>
-  </item>
-  <item label="Reconfigure">
-    <action name="Reconfigure" />
-  </item>
   <menu id="settings" label="Settings">
     <item label="Mouse">
        <action name="Execute"><execute>lxinput</execute></action>
     </item>
+    <menu id="openbox" label="Window Settings">
+      <item label="ObConf">
+        <action name="Execute"><execute>obconf</execute></action>
+      </item>
+      <item label="Reload">
+        <action name="Restart" />
+      </item>
+    </menu>
   </menu>
-  <item label="Restart">
-    <action name="Restart" />
-  </item>
   <separator />
-  <item label="Exit">
-    <action name="Exit" />
+  <item label="Lock">
+    <action name="Execute"/>
+      <execute>xscreensaver-command -lock</execute>
+    </action>
   </item>
 </menu>
-
 </openbox_menu>
