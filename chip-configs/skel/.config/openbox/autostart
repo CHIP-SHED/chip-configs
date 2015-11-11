@@ -5,4 +5,4 @@ tint2\
 
 ( sleep 2s && pasystray ) &
 
-xscreensaveer -no-splash &
+xscreensaver -no-splash &
