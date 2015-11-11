@@ -2,6 +2,7 @@ chip-configs (0.3) unstable; urgency=low
 
   * Audio and bluetooth applets
   * xscreensaver autostart
+  * Openbox menu customization
 
  -- Ben Young <benjamin@nextthing.co>  Mon, 10 Nov 2015 13:51:49 -0800
 
