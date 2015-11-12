@@ -41,7 +41,7 @@
   </menu>
   <separator />
   <item label="Exit">
-    <action name="Execute"/>
+    <action name="Execute">
       <execute>chip-exit</execute>
     </action>
   </item>
