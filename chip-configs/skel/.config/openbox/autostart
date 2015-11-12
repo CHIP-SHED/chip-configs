@@ -3,7 +3,7 @@ nitrogen --restore && \
 tint2\
 ) &
 
-( sleep 2s && pasystray ) &
+( sleep 2s && volti ) &
 
 xscreensaver -no-splash &
 
