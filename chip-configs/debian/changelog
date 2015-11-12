@@ -1,5 +1,12 @@
 chip-configs (0.5) unstable; urgency=low
 
+  * Fixed early end of element in openbox menu for chip-exit.
+
+ -- Ben Young <benjamin@nextthing.co>  Wed, 10 Nov 2015 22:28:00 -0800
+
+
+chip-configs (0.5) unstable; urgency=low
+
   * Launchers for Thunar and chip-exit
   * Changed tint panel main color
   * Launchers for Thunar and chip-exit
