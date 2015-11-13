@@ -1,8 +1,8 @@
-chip-configs (0.5) unstable; urgency=low
+chip-configs (0.6) unstable; urgency=low
 
-  * Fixed early end of element in openbox menu for chip-exit.
+  * Wipe all, start fresh for xfce4 environment.
 
- -- Ben Young <benjamin@nextthing.co>  Wed, 10 Nov 2015 22:28:00 -0800
+ -- Ben Young <benjamin@nextthing.co>  Thurs, 12 Nov 2015 21:31:00 -0800
 
 
 chip-configs (0.5) unstable; urgency=low
@@ -11,14 +11,14 @@ chip-configs (0.5) unstable; urgency=low
   * Changed tint panel main color
   * Launchers for Thunar and chip-exit
 
- -- Ben Young <benjamin@nextthing.co>  Wed, 10 Nov 2015 14:40:00 -0800
+ -- Ben Young <benjamin@nextthing.co>  Wed, 11 Nov 2015 14:40:00 -0800
 
 
 chip-configs (0.4) unstable; urgency=low
 
   * Primarily for testing update function.
 
- -- Ben Young <benjamin@nextthing.co>  Wed, 10 Nov 2015 13:56:22 -0800
+ -- Ben Young <benjamin@nextthing.co>  Wed, 11 Nov 2015 13:56:22 -0800
 
 
 chip-configs (0.3) unstable; urgency=low
