@@ -1,4 +1,3 @@
 skel /etc/
-menu.desktop /usr/share/applications/
 wallpapers/* /usr/share/wallpapers/
 logos/* /usr/share/
