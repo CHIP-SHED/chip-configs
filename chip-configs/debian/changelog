@@ -1,3 +1,10 @@
+chip-configs (0.7) unstable; urgency=low
+
+  * Menu layout changes.
+
+ -- Ben Young <benjamin@nextthing.co>  Fri, 13 Nov 2015 12:05:00 -0800
+
+
 chip-configs (0.6) unstable; urgency=low
 
   * Wipe all, start fresh for xfce4 environment.

@@ -1,3 +1,4 @@
 skel /etc/
 wallpapers/* /usr/share/wallpapers/
 logos/* /usr/share/
+chip-configs.install /usr/share/applications/
