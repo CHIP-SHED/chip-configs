@@ -8,10 +8,10 @@
         <property name="color1" type="empty"/>
         <property name="color2" type="empty"/>
         <property name="color-style" type="empty"/>
-        <property name="image-path" type="string" value="/usr/share/wallpapers/Chip/chip-desktop.png"/>
+        <property name="image-path" type="string" value="/home/chip/.local/share/backgrounds/xfce/chip-desktop.png"/>
         <property name="image-show" type="empty"/>
-        <property name="last-image" type="string" value="/usr/share/wallpapers/Chip/chip-desktop.png"/>
-        <property name="last-single-image" type="string" value="/usr/share/wallpapers/Chip/chip-desktop.png"/>
+        <property name="last-image" type="string" value="/home/chip/.local/share/backgrounds/xfce/chip-desktop.png"/>
+        <property name="last-single-image" type="string" value="/home/chip/.local/share/backgrounds/xfce/chip-desktop.png"/>
         <property name="image-style" type="int" value="1"/>
       </property>
     </property>
