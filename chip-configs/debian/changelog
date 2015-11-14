@@ -1,3 +1,10 @@
+chip-configs (0.12) unstable; urgency=low
+
+  * Chip-icon goes white!
+
+ -- Ben Young <benjamin@nextthing.co>  Sat, 14 Nov 2015 13:58:00 -0800
+
+
 chip-configs (0.11) unstable; urgency=low
 
   * Unshow hidden files in Thunar.
@@ -6,7 +13,6 @@ chip-configs (0.11) unstable; urgency=low
   * Set default iceweasel search engine to DDG.
 
  -- Ben Young <benjamin@nextthing.co>  Fri, 13 Nov 2015 17:25:00 -0800
-
 
 chip-configs (0.10) unstable; urgency=low
 
