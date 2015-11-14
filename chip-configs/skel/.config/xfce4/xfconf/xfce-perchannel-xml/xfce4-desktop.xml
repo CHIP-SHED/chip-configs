@@ -5,27 +5,17 @@
     <property name="screen0" type="empty">
       <property name="monitor0" type="empty">
         <property name="brightness" type="empty"/>
-        <property name="color1" type="array">
-          <value type="uint" value="65535"/>
-          <value type="uint" value="11133"/>
-          <value type="uint" value="36302"/>
-          <value type="uint" value="65535"/>
-        </property>
+        <property name="color1" type="empty"/>
         <property name="color2" type="empty"/>
-        <property name="color-style" type="int" value="0"/>
+        <property name="color-style" type="empty"/>
         <property name="image-path" type="string" value="/usr/share/wallpapers/Chip/chip-desktop.png"/>
         <property name="image-show" type="empty"/>
-        <property name="last-image" type="string" value="/usr/share/wallpapers/Chip/chip-desktop.png"/>
+        <property name="last-image" type="empty"/>
         <property name="last-single-image" type="string" value="/usr/share/wallpapers/Chip/chip-desktop.png"/>
-        <property name="image-style" type="int" value="1"/>
       </property>
     </property>
   </property>
   <property name="desktop-icons" type="empty">
     <property name="icon-size" type="uint" value="30"/>
-    <property name="style" type="int" value="2"/>
-  </property>
-  <property name="windowlist-menu" type="empty">
-    <property name="show-icons" type="bool" value="false"/>
   </property>
 </channel>
