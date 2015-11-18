@@ -1,3 +1,10 @@
+chip-configs (0.13) unstable; urgency=low
+
+  * XFCE splashscreen added
+
+ -- Ben Young <benjamin@nextthing.co>  Wed, 18 Nov 2015 15:08:00 -0800
+
+
 chip-configs (0.12) unstable; urgency=low
 
   * Chip-icon goes white!
