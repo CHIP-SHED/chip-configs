@@ -1,16 +1,23 @@
+chip-configs (0.14) unstable; urgency=low
+
+  * Removed desktop icons except for new volumes.
+
+ -- Ben Young <software@nextthing.co>  Mon, 30 Nov 2015 11:56:00 -0800
+
+
 chip-configs (0.13) unstable; urgency=low
 
   * XFCE splashscreen added
   * Added keyboard layout/support for PocketChip
 
- -- Ben Young <benjamin@nextthing.co>  Wed, 18 Nov 2015 15:08:00 -0800
+ -- Ben Young <software@nextthing.co>  Wed, 18 Nov 2015 15:08:00 -0800
 
 
 chip-configs (0.12) unstable; urgency=low
 
   * Chip-icon goes white!
 
- -- Ben Young <benjamin@nextthing.co>  Sat, 14 Nov 2015 13:58:00 -0800
+ -- Ben Young <software@nextthing.co>  Sat, 14 Nov 2015 13:58:00 -0800
 
 
 chip-configs (0.11) unstable; urgency=low
@@ -20,41 +27,41 @@ chip-configs (0.11) unstable; urgency=low
   * Removed clock from panel.
   * Set default iceweasel search engine to DDG.
 
- -- Ben Young <benjamin@nextthing.co>  Fri, 13 Nov 2015 17:25:00 -0800
+ -- Ben Young <software@nextthing.co>  Fri, 13 Nov 2015 17:25:00 -0800
 
 chip-configs (0.10) unstable; urgency=low
 
   * Themeing, layout, icons
 
- -- Ben Young <benjamin@nextthing.co>  Fri, 13 Nov 2015 17:25:00 -0800
+ -- Ben Young <software@nextthing.co>  Fri, 13 Nov 2015 17:25:00 -0800
 
 
 chip-configs (0.9) unstable; urgency=low
 
   * Lots of miscellaneous fixes.
 
- -- Ben Young <benjamin@nextthing.co>  Fri, 13 Nov 2015 17:25:00 -0800
+ -- Ben Young <software@nextthing.co>  Fri, 13 Nov 2015 17:25:00 -0800
 
 
 chip-configs (0.8) unstable; urgency=low
 
   * Theme changes.
 
- -- Ben Young <benjamin@nextthing.co>  Fri, 13 Nov 2015 13:06:00 -0800
+ -- Ben Young <software@nextthing.co>  Fri, 13 Nov 2015 13:06:00 -0800
 
 
 chip-configs (0.7) unstable; urgency=low
 
   * Menu layout changes.
 
- -- Ben Young <benjamin@nextthing.co>  Fri, 13 Nov 2015 12:05:00 -0800
+ -- Ben Young <software@nextthing.co>  Fri, 13 Nov 2015 12:05:00 -0800
 
 
 chip-configs (0.6) unstable; urgency=low
 
   * Wipe all, start fresh for xfce4 environment.
 
- -- Ben Young <benjamin@nextthing.co>  Thurs, 12 Nov 2015 21:31:00 -0800
+ -- Ben Young <software@nextthing.co>  Thurs, 12 Nov 2015 21:31:00 -0800
 
 
 chip-configs (0.5) unstable; urgency=low
@@ -63,14 +70,14 @@ chip-configs (0.5) unstable; urgency=low
   * Changed tint panel main color
   * Launchers for Thunar and chip-exit
 
- -- Ben Young <benjamin@nextthing.co>  Wed, 11 Nov 2015 14:40:00 -0800
+ -- Ben Young <software@nextthing.co>  Wed, 11 Nov 2015 14:40:00 -0800
 
 
 chip-configs (0.4) unstable; urgency=low
 
   * Primarily for testing update function.
 
- -- Ben Young <benjamin@nextthing.co>  Wed, 11 Nov 2015 13:56:22 -0800
+ -- Ben Young <software@nextthing.co>  Wed, 11 Nov 2015 13:56:22 -0800
 
 
 chip-configs (0.3) unstable; urgency=low
@@ -79,11 +86,11 @@ chip-configs (0.3) unstable; urgency=low
   * xscreensaver autostart
   * Openbox menu customization
 
- -- Ben Young <benjamin@nextthing.co>  Tue, 10 Nov 2015 13:51:49 -0800
+ -- Ben Young <software@nextthing.co>  Tue, 10 Nov 2015 13:51:49 -0800
 
 
 chip-configs (0.2) unstable; urgency=low
 
   * Initial Release.
 
- -- Ben Young <benjamin@nextthing.co>  Mon, 09 Nov 2015 12:10:49 -0800
+ -- Ben Young <software@nextthing.co>  Mon, 09 Nov 2015 12:10:49 -0800
