@@ -12,7 +12,7 @@
 <action>
 	<icon>gksu-root-terminal</icon>
 	<name>Open Root Terminal Here</name>
-	<command>gksudo &quot;x-terminal-emulator -default-working-directory=%f&quot;</command>
+	<command>gksu &quot;x-terminal-emulator -default-working-directory=%f&quot;</command>
 	<description>Open terminal as root in current directory</description>
 	<patterns>*</patterns>
 	<startup-notify/>
@@ -21,7 +21,7 @@
 <action>
 	<icon>system-file-manager</icon>
 	<name>Open as root</name>
-	<command>gksudo &quot;thunar %f&quot;</command>
+	<command>gksu &quot;thunar %f&quot;</command>
 	<description>Open directory as root</description>
 	<patterns>*</patterns>
 	<startup-notify/>
@@ -30,7 +30,7 @@
 <action>
 	<icon>leafpad</icon>
 	<name>Edit as root</name>
-	<command>gksudo &quot;leafpad %f&quot;</command>
+	<command>gksu &quot;leafpad %f&quot;</command>
 	<description>Edit file as root</description>
 	<patterns>*</patterns>
 	<startup-notify/>
