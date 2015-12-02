@@ -1,5 +1,16 @@
 chip-configs (0.14) unstable; urgency=low
 
+  * Added gtk-bookmarks for thunar sidepanel
+  * Added thunar provisions for quick-actions:
+    * Archive management
+    * Open terminal/file/dir as root
+  * Fixed mime type for plaintext.
+
+ -- Ben Young <software@nextthing.co>  Wed, 2 Dec 2015 14:25:00 -0800
+
+
+chip-configs (0.14) unstable; urgency=low
+
   * Removed desktop icons except for new volumes.
 
  -- Ben Young <software@nextthing.co>  Mon, 30 Nov 2015 11:56:00 -0800
