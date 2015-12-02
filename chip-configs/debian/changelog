@@ -1,4 +1,4 @@
-chip-configs (0.14) unstable; urgency=low
+chip-configs (0.15) unstable; urgency=low
 
   * Added gtk-bookmarks for thunar sidepanel
   * Added thunar provisions for quick-actions:
