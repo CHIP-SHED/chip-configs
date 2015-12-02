@@ -3,6 +3,7 @@ chip-configs (0.16) unstable; urgency=low
   * Switched to gksu for Thunar root launchers
   * Removed gtk-bookmarks
   * Reduced terminal font size
+  * Added template files
 
  -- Ben Young <software@nextthing.co>  Wed, 2 Dec 2015 15:17:00 -0800
 
