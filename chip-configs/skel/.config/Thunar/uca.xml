@@ -3,7 +3,7 @@
 <action>
 	<icon>utilities-terminal</icon>
 	<name>Open Terminal Here</name>
-	<command>x-terminal-emulator -default-working-directory=%f</command>
+	<command>xfce4-terminal -default-working-directory=%f</command>
 	<description>Open terminal in current directory</description>
 	<patterns>*</patterns>
 	<startup-notify/>
@@ -12,7 +12,7 @@
 <action>
 	<icon>gksu-root-terminal</icon>
 	<name>Open Root Terminal Here</name>
-	<command>gksu &quot;x-terminal-emulator -default-working-directory=%f&quot;</command>
+	<command>gksu &quot;xfce4-terminal -default-working-directory=%f&quot;</command>
 	<description>Open terminal as root in current directory</description>
 	<patterns>*</patterns>
 	<startup-notify/>

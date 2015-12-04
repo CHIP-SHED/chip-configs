@@ -1,3 +1,10 @@
+chip-configs (0.18) unstable; urgency=low
+
+  * Edited thunar quicklaunch shortcuts to not be foiled by new terminals
+
+ -- Ben Young <software@nextthing.co>  Wed, 2 Dec 2015 18:10:00 -0800
+
+
 chip-configs (0.17) unstable; urgency=low
 
   * Added keyboard shortcuts for desktop environment
