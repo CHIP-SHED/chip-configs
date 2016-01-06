@@ -23,4 +23,4 @@ keycode  59 = comma less semicolon less
 keycode  61 = slash question backslash question
 keycode  82 = KP_Subtract KP_Subtract F11 KP_Subtract
 keycode  86 = KP_Add KP_Add F12 KP_Add
-keycode 108 = Mode_switch Meta_R Alt_R Meta_R
+keycode 108 = Mode_switch Meta_
