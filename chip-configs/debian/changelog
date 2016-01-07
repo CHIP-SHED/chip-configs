@@ -1,3 +1,10 @@
+chip-configs (0.20) unstable; urgency=low
+
+  * Merged keyboard layout changes for PocketCHIP mapping.
+
+ -- Ben Young <software@nextthing.co>  Wed, 6 Jan 2016 17:21:00 -0800
+
+
 chip-configs (0.19) unstable; urgency=low
 
   * Fixed syntax error.
