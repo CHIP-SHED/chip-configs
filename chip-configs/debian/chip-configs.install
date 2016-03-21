@@ -1,4 +1,3 @@
 skel /etc/
 share/* /usr/share/
-local/* /usr/local/
 menu/* /usr/share/applications/
