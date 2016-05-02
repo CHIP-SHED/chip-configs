@@ -1,3 +1,10 @@
+chip-configs (0.21) unstable; urgency=low
+
+  * Implement software audio mixing with dmix
+
+ -- Ben Young <software@nextthing.co>  Mon, 2 May 2016 12:37:00 -0800
+
+
 chip-configs (0.20) unstable; urgency=low
 
   * Merged keyboard layout changes for PocketCHIP mapping.
