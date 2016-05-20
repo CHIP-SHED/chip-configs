@@ -1,0 +1,26 @@
+#!/bin/bash
+#
+# This script is run as root before showing login widget.
+
+set -x
+
+OUTPUTS=($(xrandr -q | grep connected | grep -v disconnected | cut -f1 -d " "))
+
+# If Composite is our only output, enable it
+if [ ${#OUTPUTS[@]} -eq 1 ]; then 
+  COMP_STATE=--auto
+else
+  COMP_STATE=--off
+fi
+
+for OUTPUT in "${OUTPUTS[@]}"; do
+  if [[ $OUTPUT  == Composite-* ]]; then
+    COMPOSITE=$OUTPUT
+  else
+    EXTERNAL=$OUTPUT
+  fi
+done
+
+xrandr --output $COMPOSITE $COMP_STATE
+xrandr --output $EXTERNAL --auto
+

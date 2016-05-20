@@ -1,3 +1,9 @@
+chip-configs (0.25) stable; urgency=low
+
+  * Xsetup and xorg.conf to manage video outputs
+
+ -- Ben Young <software@nextthing.co>  Fri, 20 May 2016 12:47:00 -0800
+
 chip-configs (0.24) stable; urgency=low
 
   * [MORE] Plymouth theme updates
