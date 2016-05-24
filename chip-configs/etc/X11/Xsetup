@@ -7,7 +7,7 @@ set -x
 OUTPUTS=($(xrandr -q | grep connected | grep -v disconnected | cut -f1 -d " "))
 
 # If Composite is our only output, enable it
-if [ ${#OUTPUTS[@]} -eq 1 ]; then 
+if [ ${#OUTPUTS[@]} -eq 1 ]; then
   COMP_STATE=--auto
 else
   COMP_STATE=--off
@@ -21,6 +21,14 @@ for OUTPUT in "${OUTPUTS[@]}"; do
   fi
 done
 
-xrandr --output $COMPOSITE $COMP_STATE
-xrandr --output $EXTERNAL --auto
+if [[ ! -z "$COMPOSITE" ]]; then
+  echo "xrandr --output $COMPOSITE $COMP_STATE" >>/var/log/Xsetup.log
+  xrandr --output $COMPOSITE $COMP_STATE
+fi
 
+if [[ ! -z "$EXTERNAL" ]]; then
+  echo "xrandr --output $EXTERNAL --auto" >>/var/log/Xsetup.log
+  xrandr --output $EXTERNAL --auto
+  echo "xrandr --output $EXTERNAL --auto" >>/var/log/Xsetup.log
+  xrandr --output $EXTERNAL --auto
+fi
