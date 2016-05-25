@@ -31,4 +31,5 @@ if [[ ! -z "$EXTERNAL" ]]; then
   xrandr --output $EXTERNAL --auto
   echo "xrandr --output $EXTERNAL --auto" >>/var/log/Xsetup.log
   xrandr --output $EXTERNAL --auto
+  xsetroot -cursor_name top_left_arrow
 fi
