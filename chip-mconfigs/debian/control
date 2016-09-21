@@ -1,4 +1,4 @@
-Source: chip-configs
+Source: chip-mconfigs
 Section: misc
 Priority: extra
 Maintainer: Ben Young <benjamin@nextthing.co>
@@ -7,8 +7,9 @@ Standards-Version: 3.9.5
 Homepage: nextthing.co
 Github: github.com/NextThingCo
 
-Package: chip-configs
+Package: chip-mconfigs
 Architecture: all
+Provides: chip-configs
 Depends: ${misc:Depends}
 Description: Userspace configuration for Chip.
  Chip configs for themeing and functionality of openbox and tint2.

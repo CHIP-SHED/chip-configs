@@ -1,6 +1,7 @@
-chip-configs (0.27) stable; urgency=low
+chip-mconfigs (0.27) stable; urgency=low
 
   * Armsoc configuration addition for x11 driver
+  * Redefine as separate package to prevent upgrade breakage
   
  -- Ben Young <software@nextthing.co>  Fri, 19 Aug 2016 15:54:00 -0800
 
