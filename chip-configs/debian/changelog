@@ -1,3 +1,9 @@
+chip-mconfigs (0.28) stable; urgency=low
+
+  * Set NTSC padded mode once in X
+  
+ -- Ben Young <software@nextthing.co>  Thu, 03 Nov 2016 12:49:00 -0800
+
 chip-mconfigs (0.27) stable; urgency=low
 
   * Armsoc configuration addition for x11 driver
