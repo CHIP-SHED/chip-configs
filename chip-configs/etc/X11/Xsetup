@@ -8,7 +8,12 @@ OUTPUTS=($(xrandr -q | grep connected | grep -v disconnected | cut -f1 -d " "))
 
 # If Composite is our only output, enable it
 if [ ${#OUTPUTS[@]} -eq 1 ]; then
-  COMP_STATE="--mode NTSC10"
+  # Set padding for apropriate video mode
+  if [[ ! -z $(xrandr -q | grep '*' | grep 'PAL') ]]; then
+    COMP_STATE="--mode PAL10"
+  else
+    COMP_STATE="--mode NTSC10"
+  fi
 else
   COMP_STATE=--off
 fi
